@@ -11,6 +11,7 @@ module OmnitureClient
       output = <<-JS
         <script type="text/javascript">
           var s_account = "#{OmnitureClient::account}";
+          var s_linkInternalFilters = "#{OmnitureClient::link_internal_filters}";
         </script>
         <script type="text/javascript" src="/javascripts/#{OmnitureClient::js_include}"></script>
         <script type="text/javascript">
